@@ -10,8 +10,8 @@ local DataStoreInstance = DataStoreHelper.new(dataStoreName)
 DataStoreInstance:GetSettings() == {
     ["AutoSaveEnabled"] = false, -- Determines if autosaves are enabled or not.
 	["AutoSaveInterval"] = 180, -- Determines the interval between each autosave.
-	["VerboseLogging"] = true, -- Determines if module should log basic information in the console.
-	["DebugLogging"] = false, -- Determines if module should log debug information in the console.
+	["VerboseLogging"] = true, -- Determines if helper should log basic information in the console.
+	["DebugLogging"] = false, -- Determines if helper should log debug information in the console.
 	["StudioEnabled"] = false, -- Determines if DataStoreInstance:Save() works in Studio or not.
 }
 
