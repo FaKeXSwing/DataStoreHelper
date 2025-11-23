@@ -1,0 +1,8 @@
+[package]
+name = "datastorehelper"
+version = "1.0.0"
+description = "A helper library for Roblox DataStores"
+author = "fakexswing"
+license = "MIT"
+
+[dependencies]
